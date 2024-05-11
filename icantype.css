@@ -1,0 +1,350 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html {
+	background-color: hsl rgba(206,216,211,0.7)
+	
+}
+body {
+	background-color: whitesmoke;
+	
+}
+html {
+	background-color: hsl rgba(206,216,211,0.7);
+	
+	
+	
+}
+body {
+	background-color: whitesmoke;
+	
+}
+
+audio, video {
+	filter: drop-shadow(8px 8px 15px rgb(51, 51, 51));
+	display: block;
+	margin: 10px auto;
+	width: 90%;
+}
+
+
+/*header styles*/
+
+
+
+/* font and text styles*/
+
+
+
+
+
+h1{
+	font-family: Quicksand, Verdana, Geneva,  sans-serif;
+	font-size: 48px;
+	letter-spacing: 0.1em;
+	color:darkorchid;
+	background-color: whitesmoke;
+	text-shadow: 1px 1px 1px #000, 
+               3px 3px 5px blue;
+	text-align: center;
+	
+}
+
+
+body header h1{
+	
+    font: 36px/1.5 arial, helvetica, sans-serif;
+	color:mediumspringgreen;
+	text-align: center;
+	
+	
+		
+		
+}
+
+body > header > nav  > ul > li {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	
+	
+	
+}
+
+img {
+	display: block;
+  	gap: 50px 100px;
+  	margin-left: auto;
+ 	 margin-right: auto;
+  	width: 50%;
+	border-style: double;
+    box-shadow: 40 40 70px;
+	color: darkgray;
+		
+	border-width: thick;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 100px;
+	padding-right: 100px;
+	background-clip: content-box;
+	background-color:aqua;
+	
+	
+	
+}
+p > img {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+	background-clip: content-box;
+	background-color:dimgray;
+	display: grid;
+  	gap: 50px 100px;
+}
+
+
+
+
+
+
+
+ 
+    
+    
+
+
+/* navigation styles */
+
+nav > ul > li > a{
+		font-family: Garamond, serif;
+		font-style: italic;
+		font-weight: normal;
+		font-size: 1.5em;
+		letter-spacing: 0.6em;
+	
+		
+	
+
+	}
+
+nav >  ul  >  li  >  a:link {
+	color:white;
+	text-decoration: none;
+	}
+
+nav >  ul  >  li  >  a:visited {
+	color:cyan;
+	text-decoration: none;
+	}
+
+nav >  ul  >  li  >  a:hover {
+
+	color:ghostwhite;
+	text-decoration: none;
+	text-emphasis-color: deepskyblue;
+	text-emphasis-position: above;
+	}
+
+
+
+article {
+	color:mediumseagreen
+	
+	
+}
+p { 
+	color:dodgerblue;
+	font-size: 88px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+	
+	
+}
+		
+/* structural styles */
+		
+		article, aside, figcaption, figure, footer, header, main, nav, section {
+			display: block;
+	}
+
+/* Add CSS to style the navigation bar */
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: space-around
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:aqua;
+  text-align: center; 
+  padding: 14px 16px;
+  text-decoration: none;
+	text-shadow: 1px 1px 2px dodgerblue;
+	text-justify: auto;
+	
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+/*header styles*/
+
+
+
+/* font and text styles*/
+
+
+
+
+
+h1{
+	font-family: Quicksand, Verdana, Geneva,  sans-serif;
+	font-size: 48px;
+	letter-spacing: 0.1em;
+	color:darkorchid;
+	background-color: whitesmoke;
+	text-shadow: 1px 1px 1px #000, 
+               3px 3px 5px blue;
+	text-align: center;
+	
+}
+
+
+body header h1{
+	
+    font: 36px/1.5 arial, helvetica, sans-serif;
+	color:mediumspringgreen;
+	text-align: center;
+	
+	
+	
+		
+
+
+
+
+
+
+}
+
+body > header > nav  > ul > li {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	
+	
+	
+}
+
+img {
+	display: block;
+  	margin-left: auto;
+ 	 margin-right: auto;
+  	width: 50%;
+	border-style: double;
+    box-shadow: 20 20 50px rgba(0, 0, 0, 0.8);
+	border-width: thick;
+	
+	
+}
+
+
+
+
+/* navigation styles */
+
+nav > ul > li > a{
+		font-family: Garamond, serif;
+		font-style: italic;
+		font-weight: bolder;
+		font-size: 3em;
+		letter-spacing: 0.6em;
+	
+		
+	
+
+	}
+
+nav >  ul  >  li  >  a:link {
+	color:dodgerblue;
+	text-decoration: none;
+	}
+
+nav >  ul  >  li  >  a:visited {
+	color:indigo;
+	text-decoration: none;
+	}
+
+nav >  ul  >  li  >  a:hover {
+
+	color:slateblue;
+	text-decoration: none;
+	}
+
+
+nav >  ul  >  li  >  a:active  {
+	color:yellowgreen;
+	text-decoration: none;
+	}
+
+article {
+	color:mediumseagreen
+	
+	
+}
+p { 
+	color: coral;
+	font-size: 25px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+	
+	
+}
+		
+/* structural styles */
+		
+		article, aside, figcaption, figure, footer, header, main, nav, section {
+			display: block;
+	}
+
+/* Add CSS to style the navigation bar */
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: space-around
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: papayawhip;
+  text-align: center; 
+  padding: 14px 16px;
+  text-decoration: none;
+	text-shadow: 2px 2px 5px orange;
+	text-justify: auto;
+	
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #111;
+}
+
+/* Add an "active" class for the current page */
+.active {
+  background-color: #04AA6D;
+	
