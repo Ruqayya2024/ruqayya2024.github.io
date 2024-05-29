@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
+        <link rel="stylesheet" href="photoshopcareers.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+        <title>PhotoShop Careers</title>
+    </head>
+
+
+<body>
+	
+	<nav>
+			<ul>
+				<li><a href="index.html"><strong>Who and What is <q>R</q></strong></a></li>
+				<li><a href="photoshopcareerspage.html"><strong>Photoshop Career Book Gallery</strong></a></li>
+				<li><a href="compensation.html"><strong>Compensation Course</strong></a></li>
+				<li><a href="icantype.html"><strong>iC@nType</strong></a></li>
+				<li><a href="accessibility.html"><strong>Accessibility</strong></a></li>
+			</ul>
+		</nav>
+	<div class="container">
+            <div class="gallery">
+                <figure class="gallery__item gallery__item--1">
+                    <img src="PortfolioWebsiteImages/PhotoshopBook1.jpg" alt="Graphic Designer" class="gallery__img" >
+                </figure>
+                <figure class="gallery__item gallery__item--2">
+                    <img src="PortfolioWebsiteImages/PhotoshopBook2.jpg" alt="Photographer" class="gallery__img">
+                </figure>
+                <figure class="gallery__item gallery__item--3">
+                    <img src="PortfolioWebsiteImages/PhotoshopBook3.jpg" alt="Photo Restorer" class="gallery__img">
+                </figure>
+                <figure class="gallery__item gallery__item--4">
+                    <img src="PortfolioWebsiteImages/PhotoshopBook4.jpg" alt="Web Designer" class="gallery__img">
+                </figure>
+                <figure class="gallery__item gallery__item--5">
+                    <img src="PortfolioWebsiteImages/PhotoshopBook5.jpg" alt="Graphic Artist" class="gallery__img">
+                </figure>
+                <figure class="gallery__item gallery__item--6">
+                    <img src="PortfolioWebsiteImages/PhotoshopBook6.jpg" alt="Visual Designer" class="gallery__img">
+                </figure>
+            </div>
+        </div>
+		 <div class="row">
+  <div class="column">
+    <img src="PortfolioWebsiteImages/PhotoshopBook1.jpg" alt="Graphic Designer" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="PortfolioWebsiteImages/PhotoshopBook2.jpg" alt="Photographer" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="PortfolioWebsiteImages/PhotoshopBook3.jpg" alt="Photo Restorer" style="width:100%">
+  </div>
+	 <div class="row">
+  <div class="column">
+    <img src="PortfolioWebsiteImages/PhotoshopBook4.jpg" alt="Web Designer" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="PortfolioWebsiteImages/PhotoshopBook5.jpg" alt="Graphic Artist" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="PortfolioWebsiteImages/PhotoshopBook6.jpg" alt="Visual Designer" style="width:100%">
+  </div>
+</div> 		 
+
+			 
+<footer>
+	
+		Mail Us: <a href="mailto:ris4responsive@gmail.com"></a> &#8226;
+			Call: <a href="tel:+13526204335">(352) 620-4335</a>  &#8226;  
+		Text Us: <a href="sms:+3526204335">(352) 620-4335</a>;
+	
+<footer/>
+	
+	
+
+	
+	
+</body>
+</html>
