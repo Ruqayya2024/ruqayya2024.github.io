@@ -215,6 +215,8 @@ p {
 			display: block;
 	}
 
+
+
 /* Add CSS to style the navigation bar */
 ul {
   list-style-type: none;
@@ -245,5 +247,7 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+
 
 
