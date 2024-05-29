@@ -3,10 +3,6 @@
 
 
 
-html, body {
-background-image: url("jadebackground.jpg"); 
-}
-
 
 /*header styles*/
 
@@ -21,7 +17,7 @@ background-image: url("jadebackground.jpg");
 }
 	
 	img {
-		opacity: 0.8;
+		opacity: 0.5;
 	}
 
 
