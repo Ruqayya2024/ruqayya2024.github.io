@@ -3,12 +3,9 @@
 
 
 
-html {
-	
-	
+html, body {
+background-image: url("jadebackground.jpg"); 
 }
-body {
-	background-image: url("jadebackground.jpg"); 
 
 
 /*header styles*/
