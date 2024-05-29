@@ -162,12 +162,64 @@ p {
 			display: block;
 	}
 
+/* navigation styles */
+
+nav > ul > li > a{
+		font-family: Garamond, serif;
+		font-style: italic;
+		font-weight: normal;
+		font-size: 1.5em;
+		letter-spacing: 0.6em;
+	
+		
+	
+
+	}
+
+nav >  ul  >  li  >  a:link {
+	color:white;
+	text-decoration: none;
+	}
+
+nav >  ul  >  li  >  a:visited {
+	color:cyan;
+	text-decoration: none;
+	}
+
+nav >  ul  >  li  >  a:hover {
+
+	color:ghostwhite;
+	text-decoration: none;
+	text-emphasis-color: deepskyblue;
+	text-emphasis-position: above;
+	}
+
+
+
+article {
+	color:mediumseagreen
+	
+	
+}
+p { 
+	color:dodgerblue;
+	font-size: 36px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+	
+	
+}
+		
+/* structural styles */
+		
+		article, aside, figcaption, figure, footer, header, main, nav, section {
+			display: block;
+	}
 
 /* Add CSS to style the navigation bar */
 ul {
-  list-style-type:none;
-  margin: 50px;
-  padding: 50px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
   overflow: hidden;
   background-color: #333;
   display: flex;
@@ -180,11 +232,11 @@ li {
 
 li a {
   display: block;
-  color: papayawhip;
+  color:aqua;
   text-align: center; 
   padding: 14px 16px;
   text-decoration: none;
-	text-shadow: 2px 2px 5px dodgerblue;
+	text-shadow: 1px 1px 2px dodgerblue;
 	text-justify: auto;
 	
 }
@@ -194,32 +246,4 @@ li a:hover {
   background-color: #111;
 }
 
- /* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
 
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-} 
-
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 33.33%;
-  padding: 5px;
-}
- /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 500px) {
-  .column {
-    width: 100%;
-  }
-} 
-	
