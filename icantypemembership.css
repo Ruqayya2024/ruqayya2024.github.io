@@ -50,6 +50,7 @@
   grid-row: 2/3;
   */
   grid-area: index-masthead;
+  font-size: 48px;
 }
 
 .main-content {
