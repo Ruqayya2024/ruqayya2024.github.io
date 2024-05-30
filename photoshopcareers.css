@@ -274,12 +274,12 @@ img:hover {
 
 
 p > img {
-    margin-top: 20px; 
-    margin-bottom: 20px; 
+    margin-top: 5px; 
+    margin-bottom: 5px; 
 	background-clip: content-box;
 	background-color:dimgray;
 	display: inline-flex;
-  	gap: 50px 100px;
+  	gap: 5px 50px;
 }
 
 
