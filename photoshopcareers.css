@@ -173,7 +173,6 @@ nav > ul > li > a{
 
 nav >  ul  >  li  >  a:link {
 	color:white;
-	text-decoration: none;
 	}
 
 nav >  ul  >  li  >  a:visited {
@@ -228,6 +227,7 @@ li {
 
 li a {
   display: block;
+	font-size: 36px;
   color:aqua;
   text-align: center; 
   padding: 14px 16px;
