@@ -57,7 +57,7 @@ body > header > nav  > ul > li {
 
 img {
 	display: block;
-  	gap: 50px 100px;
+  	gap: 50px;
   	margin-left: auto;
  	 margin-right: auto;
   	width: 50%;
@@ -66,9 +66,9 @@ img {
 	color: darkgray;
 		
 	border-width: thick;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	padding-left: 100px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
 	padding-right: 100px;
 	background-clip: content-box;
 	background-color:aqua;
@@ -82,7 +82,7 @@ p > img {
 	background-clip: content-box;
 	background-color:dimgray;
 	display: grid;
-  	gap: 50px 100px;
+  	gap: 50px;
 }
 
 
