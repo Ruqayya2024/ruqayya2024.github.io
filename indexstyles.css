@@ -139,6 +139,7 @@ article {
 }
 p { 
 	color:dodgerblue;
+	font-decoration: none;
 	font-size: 36px;
 	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
 	
