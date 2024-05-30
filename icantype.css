@@ -2,8 +2,10 @@
 /* CSS Document */
 
 
-div { 
-	display: block;}
+iframe { 
+	margin: 0 auto;
+	display: block;
+}
 	
 
 body {
