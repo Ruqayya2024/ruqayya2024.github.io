@@ -7,6 +7,36 @@ ul {
 }
 
 /* CSS Grid style */
+/* Add CSS to style the navigation bar */
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: space-around
+  /*min-height: 100px;*/
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:aqua;
+  text-align: center; 
+  padding: 14px 16px;
+  text-decoration: none;
+	text-shadow: 1px 1px 2px dodgerblue;
+	text-justify: auto;
+	
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #111;
 
 .site {
   display: grid;
