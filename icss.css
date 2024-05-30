@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS Grid style */
+
+.site {
+  display: grid;
+  grid-template-columns: 15px 1fr 1fr 15px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+   ". index-title index-title ."
+   ". index-masthead . ."
+   ". index-sidebar index-content ."
+   ". index-sidebar index-content ."
+   ". index-footer index-footer .";
+  grid-gap: 10px;
+  grid-auto-rows: 150px;
+}
+
+.site > aside {
+  background: #ccc;
+  padding: 1em;
+}
+
+.page-title {
+  /* different techniques to customize grids layouts */
+  /*
+  grid-column: 1/3;
+  grid-row: 1/2;
+  */
+   /*
+  grid-column-start: 1;
+  grid-column-end: 3;
+  */
+  /*
+  grid-column: 1/3;
+  */
+  /*
+  grid-column-end: span 1;
+  grid-row-end: span 2;
+  */
+  grid-area: index-title;
+}
+
+.masthead {
+  /*
+  grid-column: 1/3;
+  grid-row: 2/3;
+  */
+  grid-area: index-masthead;
+}
+
+.main-content {
+  /*
+  grid-column: 2/3;
+  grid-row: 3/4*/
+  grid-area: index-content;
+  justify-self: center;
+  align-self: center;
+}
+
+.sidebar {
+  /*
+  grid-column: 1/2;
+  grid-row: 3/4;
+  */
+  grid-area: index-sidebar;
+}
+
+.purple {
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  
+  grid-gap: 1em;
+}
+
+.purple > p {
+  border: green 1px solid;
+  padding: 1em;
+}
+
+
+.footer {
+  /*
+  grid-column: 1/3;
+  grid-row: 4/5;
+  */
+  grid-area: index-footer;
+}
+
+/* Style boxes */
+
+.green {
+  background-color: green;
+  width: 100%;
+  height: 100%;
+}
+
+.red {
+  background-color: red;
+  width: 100%;
+  height: 100%;
+}
+
+.blue {
+  background-color: blue;
+  width: 100%;
+  height: 100%;
+}
+
+.purple {
+  background-color: purple;
+  width: 100%;
+  height: 100%;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive styling */
+/* 
+*** when you go above 736px (dekstop) you get the normal layout; en wnnr je onder die 736px gaat de layout zich aanpassen obv de CSS Grid style
+*** DUS EERST MOBILE RESPONSIVE MAKEN EN DAARNA DESKTOP LAYOUT
+*/
+
+@media screen and (min-width: 736px) {
+  .site {
+    display: grid;
+    grid-template-columns: 1fr 500px 500px 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    ". index-title index-title ."
+     ". index-masthead index-masthead ."
+     ". index-sidebar index-content ."
+     ". index-footer index-footer .";
+    grid-gap: 10px;
+  }
+}
