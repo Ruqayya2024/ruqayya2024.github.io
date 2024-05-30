@@ -225,7 +225,8 @@ ul {
   overflow: hidden;
   background-color: #333;
   display: flex;
-  justify-content: space-around
+  justify-content: space-around;
+  min-height: 100px;
 }
 
 li {
