@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+ul {
+  min-height: 100px;
+}
 
 /* CSS Grid style */
 
