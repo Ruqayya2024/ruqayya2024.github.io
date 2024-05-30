@@ -45,7 +45,7 @@ body header h1{
 
 body > header > nav  > ul > li {
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
-	
+	min-height: 100px;
 	
 	
 }
