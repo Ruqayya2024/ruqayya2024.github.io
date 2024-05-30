@@ -4,6 +4,8 @@
 iframe { 
 	margin: 0 auto;
 	display: block;
+	
+	
 }
 
 
@@ -13,7 +15,7 @@ iframe {
 
 /* font and text styles*/
 	body {
-	background: url("jadebackground.jpg") 100%cover/ no-repeat content-box; 
+	background-image: url("jadebackground.jpg") 100%cover/ no-repeat content-box; 
 	
 	
 	
