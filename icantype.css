@@ -3,8 +3,8 @@
 
 
 iframe { 
-	margin: 0 auto;
 	display: block;
+	margin: 0 auto;
 }
 	
 
@@ -35,9 +35,6 @@ audio, video {
 
 
 /* font and text styles*/
-iframe {
-	display: block;
-}
 
 
 	
