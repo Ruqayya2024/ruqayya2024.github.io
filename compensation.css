@@ -1,7 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
-
+iframe { 
+	margin: 0 auto;
+	display: block;
+}
 
 
 /*header styles*/
