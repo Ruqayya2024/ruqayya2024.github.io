@@ -32,6 +32,12 @@ audio, video {
 
 
 /* font and text styles*/
+frame {
+	display: block;
+}
+
+
+	
 
 
 
