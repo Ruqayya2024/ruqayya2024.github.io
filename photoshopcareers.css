@@ -1,12 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 
-html {
-	
-	
-}
-body {
-	background-color:whitesmoke
+
+html, body {
+	background-color:darkgray;
 }
 
 
