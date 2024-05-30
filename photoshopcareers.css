@@ -244,9 +244,9 @@ li a:hover {
 
 img {
 	display: block;
-  	gap: 50px 100px;
-  	margin-left: 100px;
- 	 margin-right: 100px;
+  	gap: 50px 
+  	margin-left: 
+ 	 margin-right: 
 	border-style: double;
     box-shadow: 40 40 70px;
 	color: darkgray;
