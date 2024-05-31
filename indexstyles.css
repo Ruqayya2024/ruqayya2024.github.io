@@ -26,7 +26,7 @@ body {
 
 h1{
 	font-family: Quicksand, Verdana, Geneva,  sans-serif;
-	font-size: 48px;
+	font-size: 24px;
 	letter-spacing: 0.1em;
 	color:darkorchid;
 	background-color: whitesmoke;
@@ -39,7 +39,7 @@ h1{
 
 body header h1{
 	
-    font: 36px/1.5 arial, helvetica, sans-serif;
+    font: 24px/1.5 arial, helvetica, sans-serif;
 	color:mediumspringgreen;
 	text-align: center;
 	
@@ -69,7 +69,7 @@ img {
 	padding-top: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
-	padding-right: 100px;
+	padding-right: 0px;
 	background-clip: content-box;
 	background-color:aqua;
 	
@@ -95,7 +95,7 @@ p > img {
 	 float: left; 
 	 font-family: serif; 
 	 font-weight: bold;
-	 font-size: 3em;
+	 font-size: 1.5em;
 	 font-style: italic;
 	 color: #3f51b5;
 	
@@ -145,7 +145,7 @@ article {
 p { 
 	color:dodgerblue;
 	font-decoration: none;
-	font-size: 36px;
+	font-size: 24px;
 	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
 	
 	
@@ -191,7 +191,7 @@ li a:hover {
 
 
 form > p {
-	font-size: 36px;
+	font-size: 24px;
 	color: linear-gradient(to right, darkcyan, skyblue;
 }
 
