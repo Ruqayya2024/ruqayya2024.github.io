@@ -1,13 +1,11 @@
+
+
 * {
   margin: 0;
   padding: 0;
 }
 
-
-
-
-}
-
+/* CSS Grid style */
 
 .site {
   display: grid;
@@ -54,7 +52,6 @@
   grid-row: 2/3;
   */
   grid-area: index-masthead;
-  font-size: 48px;
 }
 
 .main-content {
@@ -146,3 +143,17 @@
     grid-gap: 10px;
   }
 }
+
+
+   
+   
+  
+
+
+
+
+  
+
+
+    
+  
