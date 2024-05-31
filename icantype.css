@@ -5,6 +5,7 @@
 iframe { 
 	display: block;
 	margin: 0 auto;
+	flex-basis: 100%;
 }
 	
 
