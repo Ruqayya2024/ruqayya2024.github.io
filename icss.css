@@ -135,7 +135,7 @@
 @media screen and (min-width: 736px) {
   .site {
     display: grid;
-    grid-template-columns: 1fr 500px 500px 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas:
     ". index-title index-title ."
