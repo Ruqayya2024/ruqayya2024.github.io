@@ -3,7 +3,7 @@
 
 
 iframe { 
-	display: box;
+	display: flex-box;
 	float:left;
 	
 }
