@@ -102,6 +102,13 @@ p > img {
   	gap: 50px 100px;
 }
 
+img:hover,
+img:focus{
+  width:1000px;
+  height: 1000px;
+}
+
+
 
 
 
