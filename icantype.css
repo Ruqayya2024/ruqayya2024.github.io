@@ -12,6 +12,15 @@ iframe {
 	
 }
 
+p > img {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+	background-clip: content-box;
+	background-color:dimgray;
+	display: inline-flex;
+  	gap: 50px 100px;
+}
+
 img {
 	text-align: center;
 }
