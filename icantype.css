@@ -1,6 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
-
+body {
+	display: flex-box;
+	float: left;
+}
 
 iframe { 
 	display: flex-box;
@@ -14,20 +17,15 @@ img {
 	text-align: center;
 }
 
-	.center {
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 50%;
-}
+	
 
 
 
 
 img:hover,
 img:focus{
-  width:400px;
-  height: 400px;
+  width:600px;
+  height: 600px;
 }
 
 
