@@ -2,13 +2,13 @@
 /* CSS Document */
 body {
 	display: flex-box;
-	float: center;
+	float: right;
 	text-align: center;
 }
 
 iframe { 
 	display: flex-box;
-	float:center;
+	float:right;
 	text-align: center;
 	
 }
