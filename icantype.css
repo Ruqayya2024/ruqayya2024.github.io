@@ -4,6 +4,9 @@ body {
 	display: flex-box;
 	float: center;
 	text-align: center;
+	body {
+  background-image: url("images/TypingBackground.jpg");
+}
 }
 
 iframe { 
