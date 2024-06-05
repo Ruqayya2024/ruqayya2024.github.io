@@ -1,23 +1,19 @@
 @charset "utf-8";
 /* CSS Document */
 
-
+iframe img {
+	display:flex-box;
 iframe { 
 	width:600px;
 	height: 600px;
-	display: block;
+	
 	margin: 100px;
 	padding: 100px;
 	flex-box: 1 1 0;
-	align: middle;
-}
-background-image {
-	 "images/'typinghands.png";
+	
 }
 
-img {
-display: block;
-	
+
 
 
 img:hover,
