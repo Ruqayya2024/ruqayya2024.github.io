@@ -12,6 +12,13 @@ background-image {
 	 "images/'typinghands.png";
 }
 
+img {
+display: block;
+margin: 100px;
+	flex-box: 1 1 0;
+	align: middle;
+}
+
 	
 
 
