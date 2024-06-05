@@ -82,6 +82,17 @@ body > header > nav  > ul > li {
 	
 }
 
+.typingtidbitsshot {
+    horiz-align: center;
+    width: 60px;
+    height: 60px;
+    background-size: 90px 90px;
+    margin: 10px;
+    border: 1px rgb(218, 218, 218) solid;
+    background: #C4C4C4 no-repeat 0 0;
+    background-image: url('/Content/images/person_noimage.png? width=90&height=90&mode=crop');
+}
+
 
 	
 	
