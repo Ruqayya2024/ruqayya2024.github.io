@@ -3,6 +3,8 @@
 
 
 iframe { 
+	width:600px;
+	height: 600px;
 	display: block;
 	margin: 100px;
 	padding: 100px;
