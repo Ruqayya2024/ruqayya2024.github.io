@@ -83,25 +83,7 @@ body > header > nav  > ul > li {
 	
 }
 
-img {
-	display: block;
-	float:center;
-  	gap: 50px 100px;
-  	margin-left: auto;
- 	 margin-right: auto;
-  	width: 100%;
-	border-style: double;
-    box-shadow: 40 40 70px;
-	color: darkgray;
-		
-	border-width: thick;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	padding-left: 100px;
-	padding-right: 100px;
-	background-clip: content-box;
-	background-color:aqua;
-	
+
 	
 	
 }
