@@ -5,6 +5,11 @@
 html, body {
 	background-color:darkgray;
 }
+img:hover,
+img:focus{
+  width:800px;
+  height: 800px;
+}
 
 
 /*header styles*/
