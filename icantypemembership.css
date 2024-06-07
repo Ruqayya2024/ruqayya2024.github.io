@@ -66,14 +66,6 @@ img:focus{
   font-color:blue;
 }
 
-.main-content {
-  /*
-  grid-column: 2/3;
-  grid-row: 3/4*/
-  grid-area: index-content;
-  justify-self: center;
-  align-self: center;
-}
 
 
 
