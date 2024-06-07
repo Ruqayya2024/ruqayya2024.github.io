@@ -138,6 +138,26 @@
   height: 300px;
   object-fit: contain;
 }
+	form > p {
+	font-size: 24px;
+	color: linear-gradient(to right, darkcyan, skyblue;
+}
+
+label + input {
+	display: block;
+	clear: both;
+	}
+
+* +fieldset {
+	margin: 5em 0;
+	background-color: linear-gradient(to right, darkcyan, skyblue, 0.3)
+	
+}
+
+label ~ input {
+		display: block;
+}
+
 
 
 
