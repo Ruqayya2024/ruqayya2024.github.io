@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+img:hover,
+img:focus{
+  width:1000px;
+  height: 1000px;
+}
+
 /* CSS Grid style */
 
 .site {
