@@ -8,6 +8,12 @@ h1 {
 	text-align: center;
 	text-size: 200px;
 }
+img:hover,
+img:focus{
+  width:800px;
+  height: 800px;
+}
+
 	
 
 /* CSS Grid style */
