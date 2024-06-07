@@ -5,8 +5,8 @@
 
 img:hover,
 img:focus{
-  width:800px;
-  height: 800px;
+  width:400px;
+  height: 400px;
 }
 
 /* CSS Grid style */
