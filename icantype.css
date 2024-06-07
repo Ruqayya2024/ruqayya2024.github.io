@@ -1,15 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
-body {
-	display: flex-box;
-	float: center;
-	text-align: center;
-	body {
-  background-image: url("images/TypingBackground.jpg");
-}
+
 }
 
-iframe { 
+iframe img { 
 	display: flex-box;
 	float:center;
 	text-align: center;
@@ -18,9 +12,7 @@ iframe {
 
 
 
-img {
-	text-align: center;
-}
+
 
 	
 
@@ -165,11 +157,7 @@ nav >  ul  >  li  >  a:hover {
 
 
 
-article {
-	color:mediumseagreen
-	
-	
-}
+
 p { 
 	color:dodgerblue;
 	font-size: 88px;
@@ -218,11 +206,8 @@ nav >  ul  >  li  >  a:hover {
 
 
 
-article {
-	color:mediumseagreen
 	
-	
-}
+
 p { 
 	color:dodgerblue;
 	font-size: 36px;
