@@ -11,7 +11,7 @@
 	position: left;
 }
 
-.image {
+img {
     background-image: url('images/typinghands.png');
     background-size: cover;
     width: 100%;
