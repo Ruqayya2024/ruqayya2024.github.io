@@ -14,4 +14,9 @@ h2  {
   border-radius: 50%;
   max-width: 100%;
   height: auto;
+  }
+    .responsive {
+  width: 100%;
+  height: auto;
 }
+
