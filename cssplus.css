@@ -2,3 +2,4 @@
 /* CSS Document */
 
 nav li, nav a {transition: all .33s ease-out;}
+nav li:hover>ul{ animation:fadeIn .33s ease-out; }
