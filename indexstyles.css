@@ -26,7 +26,7 @@ body {
 
 h1{
 	font-family: Quicksand, Verdana, Geneva,  sans-serif;
-	font-size: 24px;
+	font-size: 12px;
 	letter-spacing: 0.1em;
 	color:darkorchid;
 	background-color: whitesmoke;
@@ -39,7 +39,7 @@ h1{
 
 body header h1{
 	
-    font: 24px/1.5 arial, helvetica, sans-serif;
+    font: 12px/1.5 arial, helvetica, sans-serif;
 	color:mediumspringgreen;
 	text-align: center;
 	
@@ -145,7 +145,7 @@ article {
 p { 
 	color:dodgerblue;
 	font-decoration: none;
-	font-size: 24px;
+	font-size: 12px;
 	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
 	
 	
