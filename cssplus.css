@@ -1,5 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
+@keyframes headlineDrop{
+  0%{font-size:6em;filter:blur(40px); }
+  100%{font-size:2em;filter:blur(0px); } 
+}
 nav li, nav a {transition: all .33s ease-out;}
 nav li:hover>ul{ animation:fadeIn .33s ease-out; }
+
+
