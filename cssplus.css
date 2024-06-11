@@ -15,4 +15,6 @@ h2 {animation: subheadSlide 1s ease-in 1s;
    animation-fill-mode: both;
    }
 
-
+#div {
+     transition: opacity 1s linear;
+  
