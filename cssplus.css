@@ -17,4 +17,10 @@ h2 {animation: subheadSlide 1s ease-in 1s;
 
 #div {
      transition: opacity 1s linear;
-  
+
+  #div1{background: #264c89;}
+        #div{
+         transition: opacity 1s linear;
+        #div:hover{
+           opacity:0;
+        }  
