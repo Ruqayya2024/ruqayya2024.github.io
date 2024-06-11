@@ -11,5 +11,8 @@ nav li:hover>ul{ animation:fadeIn .33s ease-out; }
 
 h1 {animation: headlineDrop 1s ease-in;}
 
+h2 {animation: subheadSlide 1s ease-in 1s;
+   animation-fill-mode: both;
+   }
 
 
