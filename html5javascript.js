@@ -1,6 +1,6 @@
 
 const canvas = document.getElementById('canvas');
-const ctx = canvas.getontext('2d');
+const ctx = canvas.getcontext('2d');
 
 ctx.fillstyle = "red";
 ctx.fillRect (100, 100, 500, 300);
