@@ -1,5 +1,5 @@
 
-const canvas = document.querySelector('#canvas');
+const canvas = document.getElementById('canvas');
 const ctx = canvas.getontext('2d');
 
 ctx.fillstyle = "red";
