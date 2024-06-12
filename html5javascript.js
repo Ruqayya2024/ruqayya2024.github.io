@@ -10,6 +10,7 @@ ctx.clearRect(150,150,400,200);
 ctx.fillstyle = "#0000ff";
 ctx.fillRect(40,40,100,100);
 
+
 ctx.fillStyle = "#0f0"
 ctx.fillRect(80,80,100,100);
 
