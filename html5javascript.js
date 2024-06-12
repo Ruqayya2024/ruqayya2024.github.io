@@ -7,7 +7,7 @@ const ctx = canvas.getContext("2d");
 
 ctx.fillStyle = "green";
 ctx.fillRect(10, 10, 150, 100);
-ctx.fillstyle = "red";
+ctx.fillStyle = "red";
 ctx.fillRect (100, 100, 500, 300);
 ctx.strokeRect(90, 90, 520, 320);
 ctx.clearRect(150,150,400,200);
