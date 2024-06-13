@@ -25,5 +25,5 @@ ctx.closePath();
 const str = "Pi makes me Smile!";
 ctx.font = ' italic 50px Comic';
 ctx.fillStyle = 'blue';
-ctx.textAlign = 'right';
+ctx.textAlign = 'center';
 ctx.fillText(str,100,100);
